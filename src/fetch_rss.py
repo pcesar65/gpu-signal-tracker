@@ -6,6 +6,9 @@ from datetime import datetime, timezone
 FEEDS = [
     ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
     ("The Verge", "https://www.theverge.com/rss/index.xml"),
+    ("Reuters Technology", "https://www.reuters.com/rssFeed/technologyNews"),
+("NVIDIA Investor Relations", "https://investor.nvidia.com/rss/news-releases.xml"),
+("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
 ]
 
 KEYWORDS = {

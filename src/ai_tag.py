@@ -6,7 +6,9 @@ from openai import OpenAI
 
 # Keep labels aligned with your existing tags
 LABELS = [
-    "datacenter_ai",
+    "cloud_partnerships",
+    "ai_demand", 
+    "infrastructure_expansion",
     "product_launch",
     "earnings",
     "competition",
@@ -20,7 +22,9 @@ You classify GPU/AI-related news headlines into exactly ONE label.
 Allowed labels: {", ".join(LABELS)}
 
 Definitions:
-- datacenter_ai: cloud, hyperscalers, AI training/inference, datacenter GPUs/accelerators
+- cloud_partnerships: AWS/Azure/GCP, partnerships, platform integrations
+- ai_demand: demand, backlog, orders, capacity constraints, adoption
+- infrastructure_expansion: datacenter buildouts, capex, factories, supply chain
 - product_launch: launches/releases/announcements of GPUs, chips, platforms
 - earnings: earnings, guidance, revenue, margins, quarterly results
 - competition: AMD/Intel/other competitor positioning, comparisons
